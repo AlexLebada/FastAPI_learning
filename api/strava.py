@@ -3,9 +3,9 @@ from models.strava import KilometersRequest
 from controllers.strava import assess_target
 
 # .APIRouter() class create modular routes
-router = fastapi.APIRouter()
+router_1 = fastapi.APIRouter()
 
-@router.post("/calculate_strava")
+@router_1.post("/calculate_strava")
 def calculate_strava(km_request: KilometersRequest):
     target = km_request.target
     kms = km_request.kilometers

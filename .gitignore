@@ -1,2 +1,15 @@
-# ignore files
+# Virtual environment directories
 venv/
+for_github/
+env/
+.venv/
+env.bak/
+
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+.idea/
+notes.txt
